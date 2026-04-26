@@ -1,0 +1,28 @@
+f.0 (linux/kernel/sched/proc.c) : NO_HZ
+f.1 (linux/kernel/sched/rt.c) : SCHED_DEBUG
+f.2 (linux/include/linux/if_vlan.h) : !VLAN_8021Q
+f.3 (linux/kernel/rcutree_plugin.h) : TREE_PREEMPT_RCU && RCU_CPU_STALL_DETECTOR && !NO_HZ
+f.4 (linux/include/net/inet_hashtables.h) : NUMA
+f.5 (linux/arch/x86/kernel/smpboot.c) : X86_32 && X86_BIGSMP
+f.6 (linux/kernel/module.c) : MODULE_UNLOAD && SMP
+f.7 (linux/arch/x86/pci/common.c) : X86_32 && NUMA && PCI_BIOS
+f.8 (linux/fs/proc/task_mmu.c) : PROC_PAGE_MONITOR
+f.9 (linux/drivers/net/3c59x.c) : VORTEX && !PCI
+f.10 (linux/drivers/infiniband/hw/ocrdma/ocrdma_main.c) : IPV6 && !VLAN_8021Q
+f.11 (linux/fs/quota/dquot.c) : QUOTA
+f.12 (linux/include/linux/kernel.h) : !TRACING
+f.13 (linux/block/cfq-iosched.c) : CFQ_GROUP_IOSCHED && !DEBUG_BLK_CGROUP
+f.14 (linux/mm/slab.c) : LOCKDEP && DEBUG_SLAB && !DEBUG_SLAB_LEAK && DIRECT_GBPAGES && ZONE_DMA
+f.15 (linux/net/ipv4/udp.c) : HIGHMEM
+f.16 (linux/arch/powerpc/kernel/kprobes.c) :  KPROBES && !KGDB && !HWMON && !CONTEXT_SWITCH_TRACER
+f.17 (linux/fs/reiserfs/namei.c) : !SECURITY
+f.18 (linux/drivers/base/core.c) : !HOTPLUG_PCI_SGI
+f.19 (linux/drivers/base/dd.c) : I2C && TWL4030_CORE && HT_IRQ && !NF_NAT_IRC
+f.20 (linux/net/ipv4/tcp_minisocks.c) : TCP_MD5SIG && PREEMPT
+f.21 (linux/drivers/tty/pty.c) : UNIX98_PTYS && DEVPTS_MULTIPLE_INSTANCES
+f.22 (linux/fs/jffs2/super.c) : JFFS2_FS_WBUF_VERIFY
+f.23 (linux/net/core/netpoll.c) : NETPOLL && !IPV6
+f.24 (linux/init/main.c) : DEBUG_SLAB && LOCKDEP && TRACE_IRQFLAGS && PROVE_LOCKING && NUMA
+f.25 (linux/net/sctp/ipv6.c) : IP_SCTP && IPV6 && SCTP_DBG_MSG
+f.26 (linux/init/main.c) : X86 && ACPI_WMI
+f.27 (linux/drivers/gpu/drm/i915/i915_dma.c) : DRM_I915 && SHMEM && !TMPFS

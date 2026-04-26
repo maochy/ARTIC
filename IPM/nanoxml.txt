@@ -1,0 +1,11 @@
+[System]
+Name:nanoxml
+
+[Parameter]
+_0(enum):0, 1
+_1(enum):0, 1
+_2(enum):0, 1
+_3(enum):0, 1
+_4(enum):0, 1
+_5(enum):0, 1, 2, 3
+_6(enum):0, 1

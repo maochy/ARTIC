@@ -1,0 +1,51 @@
+[System]
+Name:busybox
+
+[Parameter]
+_0(enum):0, 1
+_1(enum):0, 1
+_2(enum):0, 1
+_3(enum):0, 1
+_4(enum):0, 1
+_5(enum):0, 1
+_6(enum):0, 1
+_7(enum):0, 1
+_8(enum):0, 1
+_9(enum):0, 1
+_10(enum):0, 1
+_11(enum):0, 1
+_12(enum):0, 1
+_13(enum):0, 1
+_14(enum):0, 1
+_15(enum):0, 1
+_16(enum):0, 1
+_17(enum):0, 1
+_18(enum):0, 1
+_19(enum):0, 1
+_20(enum):0, 1
+_21(enum):0, 1
+_22(enum):0, 1
+_23(enum):0, 1
+_24(enum):0, 1
+_25(enum):0, 1
+_26(enum):0, 1
+_27(enum):0, 1
+_28(enum):0, 1
+_29(enum):0, 1
+_30(enum):0, 1
+_31(enum):0, 1
+_32(enum):0, 1
+_33(enum):0, 1
+_34(enum):0, 1
+_35(enum):0, 1
+_36(enum):0, 1
+_37(enum):0, 1
+_38(enum):0, 1
+_39(enum):0, 1
+_40(enum):0, 1
+_41(enum):0, 1
+_42(enum):0, 1
+_43(enum):0, 1
+_44(enum):0, 1
+_45(enum):0, 1
+_46(enum):0, 1

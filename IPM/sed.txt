@@ -1,0 +1,15 @@
+[System]
+Name:sed
+
+[Parameter]
+_0(enum):0, 1
+_1(enum):0, 1
+_2(enum):0, 1
+_3(enum):0, 1
+_4(enum):0, 1, 2, 3, 4, 5
+_5(enum):0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+_6(enum):0, 1
+_7(enum):0, 1, 2, 3
+_8(enum):0, 1
+_9(enum):0, 1
+_10(enum):0, 1, 2
