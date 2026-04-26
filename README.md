@@ -1,9 +1,8 @@
 # ARTIC
-
-Java project for ARTIC.
+ARTIC: an Adaptive Random Testing algorithm based on combinatorial Interaction Coverage
 
 **Project Layout**
-- `src/artic/...`: source code
+- `src/...`: source code
 - `scenario`: scenario files
 - `subject`: subject models
 - `subject-bugs`: bug reports
